@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    padding: 10px;
+    color: rgb(53, 171, 132);
+}
+.board{
+    margin-top: 100px;
+    
+}
+.board-row{
+    height: 42px;
+    align-items: center;
+}
+button{
+    width: 40px;
+    height: 40px;
+    border: black solid 1px;
+}
+button ::after{
+    motion: none;
+}
+.status{
+    margin-top: 40px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+input{
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+.new-game{
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    
+    
+}
